@@ -1,7 +1,7 @@
 The Neuron:
-  - neuron (node) takes in input values with weights (synapse) and produces output signal
-  - takes weighted sum of all input values. Summation i = 1 to m of weight_i * x_i
-  -
+  - 1st step: neuron (node) takes in input values with weights (synapse) and produces output signal
+  - 2nd step: takes weighted sum of all input values. Summation i = 1 to m of weight_i * x_i
+  - 3rd step: neuron will or will not process and pass on the output signal.
 
   x1 \
   x2 -  neuron -- y
