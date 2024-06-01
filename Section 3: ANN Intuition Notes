@@ -20,5 +20,19 @@ The Neuron:
   -Synapses are assigned weights.
   -weights are crucial for ANN. Weights are how the NN learns. Gradient, Descendt, backprop come into play here
 
+Activation Function:
+-4 different types of activation functions
+
+Threshold function:
+  -x axis is weighted sum of inputs and y axis is values from 0 to 1
+  - if the value is less than 0, then threshold fn passes on 0, if >= 0 then it passes a 1. 
+  -Either yes or no, 1 or 0, etc
+
+Sigmoid function:
+- x axis is sum of weighted inputs
+-y axis is 1/(1+e^-x) where x is the value of the weighted sum
+
+
+
   
   
