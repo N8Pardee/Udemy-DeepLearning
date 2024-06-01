@@ -1,0 +1,24 @@
+The Neuron:
+  - neuron (node) takes in input values with weights (synapse) and produces output signal
+  - takes weighted sum of all input values. Summation i = 1 to m of weight_i * x_i
+  -
+
+  x1 \
+  x2 -  neuron -- y
+  x3 /
+
+  - We need to standardized or normalize our variables, meaning mean of zero or variance 1
+  - normalize by subtracting minimum value and dividing maximum - minimum to find the range of values between 0 to 1
+  - values will go into NN and influenced by weights which is why it is important to standardize the variables
+
+  addnl reading Efficient BackProp by Yann LeCun (1998)
+    Link: http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+
+  -oputput variables can be continuous(price), Binary(yes/no),categorical
+  -single observation from input (one row from dataset) and on ouput side there is a single observation for that same row. Same Observation
+
+  -Synapses are assigned weights.
+  -weights are crucial for ANN. Weights are how the NN learns. Gradient, Descendt, backprop come into play here
+
+  
+  
