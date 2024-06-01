@@ -30,7 +30,39 @@ Threshold function:
 
 Sigmoid function:
 - x axis is sum of weighted inputs
--y axis is 1/(1+e^-x) where x is the value of the weighted sum
+- between 0 or 1
+-y axis is 1/(1+e^-x) where x is the value of the weighted sums
+- used in logistic regression
+- does not have "kinks" in its curve, has a smoother curve.
+- useful in the output layer or when predicting probability
+
+Rectifier Function:
+-one of the most optimal functions in ANN
+- goes all the way to 0 then gradually progresses as the input value increases
+-one of most used
+- y axis is = max(x,0)
+
+-Hyperbolic Tangent:
+-values go from 0 to -1 and 0 to 1
+- y axis is = (1-e^-2x)/(1+e^-2x)
+
+addtl reading: Deep Sparse rectifier neural networks by Xavier Glorol (2011)
+
+Question 1:
+Assuming the DV is binary (y= 0 or 1) which function would you use?
+Answer: Threshold or Sigmoid. Sigmoid activation bc of probability of 0 or 1 and threshold bc output is 0 or 1
+
+Example 2:
+3 input layers, 4 hidden layers, 1 output layer. We would use rectifier function for the hidden layer and the
+sigmoid function for the output layer to produce a probability
+
+
+
+
+
+
+
+
 
 
 
